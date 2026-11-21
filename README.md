@@ -2,6 +2,8 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24411632.svg)](https://doi.org/10.5281/zenodo.24411632)
 
+This result is now maintained in [theta-host-split-inert-race](https://github.com/leecrossley/theta-host-split-inert-race/tree/main/results/theta-race-distant-interval). This repository is archived and keeps its releases and DOI.
+
 Assume the generalised Riemann hypothesis (GRH) for the primitive Dirichlet $L$-functions in the 547/727 race and its base field, including the Riemann zeta function. **The exact waiting factor $`C=2e^{132/25}=392.739750703596\ldots`$ fails.** In the 547/727 race with $`b=r=2`$, there are arbitrarily large starting heights $`H`$ where every doubling that finishes by $`CH`$ misses the gain of more than $`1.9735\log 2`$. At other arbitrarily large heights the same deadline misses the loss. The previous lower bound on a universal factor was $`18.286280578160\ldots`$. [Theorem and proof](PROOF.md) [Previous interval](https://github.com/leecrossley/theta-race-profile-interval/blob/264a0976afd3a59266400cf8040dbe700692dda8/PROOF.md)
 
 One starting height for the missed gain is explicit. Take $`H_*=\exp(3895686.23)/(2\sqrt2)`$. The closed interval of log centres runs from $`3895686.23`$ to $`3895691.51`$. Its length is exactly $`5.28`$. The normalized limiting score stays below $`1.8`$ throughout. The prime-only score differs from it by less than $`10^{-20}`$ there. [Explicit height and recurrence](PROOF.md#from-the-profile-to-prime-ideals)
